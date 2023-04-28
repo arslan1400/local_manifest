@@ -2,10 +2,8 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/samsung/a52sxq" name="Simon1511/android_device_samsung_a52sxq.git" remote="github" revision="lineage-20" />
- <project path="device/samsung/sm7325-common" name="Simon1511/android_device_samsung_sm7325-common.git" remote="github" revision="lineage-20" />
- <project path="vendor/samsung" name="Simon1511/android_vendor_samsung_a52sxq.git" remote="github" revision="lineage-20" />
- <project path="vendor/samsung/sm7325-common" name="Simon1511/android_vendor_samsung_sm7325-common.git" remote="github" revision="lineage-20" />
- <project path="kernel/samsung/a52sxq" name="Simon1511/android_kernel_samsung_sm7325.git" remote="github" revision="lineage-20" />
+ <project path="device/samsung/a52sxq" name="Simon1511/android_device_samsung_a52sxq" remote="github" revision="lineage-20" />
+ <project path="vendor/samsung" name="Simon1511/android_vendor_samsung_a52sxq" remote="github" revision="lineage-20" />
+ <project path="kernel/samsung/a52sxq" name="Simon1511/android_kernel_samsung_sm7325" remote="github" revision="lineage-20" />
  
 </manifest>
