@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!--Remote-->
+ <remote name="paulowesll" fetch="https://github.com/paulowesll" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 
  <!-- Trees -->
- <project path="device/samsung/a52sxq" name="Simon1511/android_device_samsung_a52sxq" remote="github" revision="lineage-20" />
- <project path="vendor/samsung" name="Simon1511/android_vendor_samsung_a52sxq" remote="github" revision="lineage-20" />
- <project path="kernel/samsung/a52sxq" name="Simon1511/android_kernel_samsung_sm7325" remote="github" revision="lineage-20" />
- 
+ <project path="device/samsung/m52xq" name="android_device_samsung_m52xq" remote="paulowesll" revision="lineage-19.1" />
+ <project path="device/samsung/sm7325-common" name="android_device_samsung_sm7325-common" remote="paulowesll" revision="lineage-19.1-test" />
+ <project path="vendor/samsung" name="android_vendor_samsung_sm7325-common" remote="paulowesll" revision="lineage-19.1" />
+ <project path="kernel/samsung/sm7325" name="android_kernel_samsung_sm7325" remote="paulowesll" revision="sep-13.1/mesa" />
+
+ <!-- Hardware -->
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-19.1" />
+
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
 </manifest>
