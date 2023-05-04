@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="paulowesll" fetch="https://github.com/paulowesll" />
+ <remote name="Simon1511" fetch="https://github.com/Simon1511" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 
