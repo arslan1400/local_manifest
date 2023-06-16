@@ -6,7 +6,7 @@
  <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 
  <!-- Trees -->
- <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="arslan1400" revision="lineage-20" />
+ <project path="device/samsung/a52sxq" name="android_device_samsung_a52sxq" remote="arslan1400" revision="rising" />
  <project path="device/samsung/sm7325-common" name="android_device_samsung_sm7325-common" remote="arslan1400" revision="lineage-20" />
  <project path="vendor/samsung/a52sxq" name="android_vendor_samsung_a52sxq" remote="arslan1400" revision="lineage-20" />
  <project path="vendor/samsung/sm7325-common" name="android_vendor_samsung_sm7325-common" remote="arslan1400" revision="lineage-20" />
