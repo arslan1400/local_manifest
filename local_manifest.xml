@@ -12,7 +12,7 @@
  <project path="kernel/samsung/sm7325" name="android_kernel_samsung_sm7325" remote="arslan1400" revision="lineage-20" />
 
  <!-- Hardware -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="arslan1400" revision="evo" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="arslan1400" revision="derp" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
